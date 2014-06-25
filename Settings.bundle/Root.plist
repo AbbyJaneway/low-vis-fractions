@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Seconds to input a number</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Seconds to input a number</string>
+			<key>Key</key>
+			<string>Seconds to input a number</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>timeout</string>
+			<key>DefaultValue</key>
+			<real>1.5</real>
+			<key>MinimumValue</key>
+			<real>0.5</real>
+			<key>MaximumValue</key>
+			<integer>5</integer>
+			<key>MaximumValueImage</key>
+			<string>max</string>
+			<key>MinimumValueImage</key>
+			<string>min</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
